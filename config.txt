@@ -7,7 +7,7 @@ kernel=zImage
 
 initial_turbo=30
 disable_splash=1
-dtoverlay=disable-bt
+dtoverlay=disable-bt,noaudio
 boot_delay=0
 dtoverlay=sharp-drm
 dtparam=spi=on
